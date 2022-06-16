@@ -75,6 +75,8 @@ function randomPowerup() {
 }
 function control(e) {
     squares[currentIndex].classList.remove('snake')
+    //From Coding with Adam: https://www.youtube.com/watch?v=7Azlj0f9vas&ab_channel=CodingWithAdam
+    //The video provided the corresponding keycodes for the arrowkeys as well as gave the structure of using them for movement in an if/else statement.
         if(e.keyCode === 39) {
             direction = 1 //Snake Moves Right
         }
