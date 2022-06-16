@@ -1,0 +1,55 @@
+.grid {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    border-style: groove;
+    border-width: 15px;
+    border-color: teal;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.grid div {
+    width: 60px;
+    height: 60px;
+}
+
+body {
+    background-color: beige;
+}
+
+button {
+    background-color: green;
+    color: whitesmoke;
+    width: 100px;
+    height: 60px;
+    margin-left: 4in;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 23px;
+}
+
+.score {
+    font-size: 40px;
+    margin-left: 4in;
+    font-family:'Courier New', Courier, monospace
+}
+
+.snake {
+    background-color: burlywood;
+}
+
+.powerup {
+    background-color: rgb(123, 5, 5);
+}
+
+.container {
+    display: inline-block;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 7px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: teal;
+    margin-left: 1px;
+    color: whitesmoke;
+}
